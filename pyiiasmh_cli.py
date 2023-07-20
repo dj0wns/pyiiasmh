@@ -35,7 +35,7 @@ from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from typing import Any, Optional, Tuple, Union
 
-from errors import UnsupportedOSError
+from lib.pyiiasmh.errors import UnsupportedOSError
 from ppctools import PpcFormatter
 
 from geckolibs.geckocode import *

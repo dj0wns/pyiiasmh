@@ -32,7 +32,7 @@ from pathlib import Path
 from struct import calcsize
 from typing import Optional, Tuple, Union
 
-from errors import CodetypeError, UnsupportedOSError
+from lib.pyiiasmh.errors import CodetypeError, UnsupportedOSError
 from geckolibs.geckocode import *
 
 
